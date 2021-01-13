@@ -1,0 +1,12 @@
+{
+  "name": "native_todo",
+  "displayName": "native_todo",
+  "expo": {
+    "name": "native_todo",
+    "slug": "native_todo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-common-types": "^0.2.32",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-native-fontawesome": "^0.2.6",
+    "expo": "~40.0.0",
+    "expo-splash-screen": "~0.8.0",
+    "expo-updates": "~0.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-elements": "^3.1.0",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-screens": "~2.15.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-unimodules": "~0.12.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-dom": "~16.9.8",
+    "@types/react-native": "~0.63.2",
+    "axios": "^0.21.1",
+    "babel-preset-expo": "~8.3.0",
+    "jest-expo": "~40.0.0",
+    "react-native-paper": "^4.5.0",
+    "typescript": "~4.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
